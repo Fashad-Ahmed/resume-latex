@@ -1,0 +1,301 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{}
+
+\begin{document}
+
+\textbf{Fashad Ahmed Siddique}
+
+\begin{quote}
+PHONE: \textbf{+923203064789}\\
+EMAIL:\\
+LINKEDIN: \textbf{www.linkedin.com/in/fashad-ahmed-siddique-285a79207}\\
+GITHUB: \textbf{https://github.com/Fashad-Ahmed}
+
+EDUCATION
+\end{quote}
+
+\includegraphics[width=7.5in,height=\textheight]{vertopal_6d2e6bfb3b634523a1faf107b161d186/media/image1.png}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+\textbf{NED University Of Engineering \& Technology} \emph{Bachelor of
+Computer Science (3.63/4 CGPA)}
+
+\textbf{Adamjee Govt. Science College}\\
+\emph{Pre Engineering (82.46\% - A+)}
+
+\textbf{Gulistan S.A.L Boys Higher Secondary School} \emph{Science Group
+(11th Position in BSEK - 93\% - A+)}
+\end{quote}\strut
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+Karachi, Pakistan\\
+\emph{2019-2023}
+
+Karachi, Pakistan\\
+\emph{2017-2019}
+
+Karachi, Pakistan\\
+\emph{2007-2017}
+\end{quote}\strut
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{quote}
+EXPERIENCES
+\end{quote}
+
+\includegraphics[width=7.5in,height=\textheight]{vertopal_6d2e6bfb3b634523a1faf107b161d186/media/image1.png}
+
+\begin{quote}
+\textbf{KoderLabs --- Software Engineer} 09/2023 - Present
+
+\emph{Karachi, Pakistan}
+
+\emph{•} Spearheaded Development of a \textbf{SPA} using
+\textbf{ReactJS}, improving page load times by 30\%, leading to a 20\%
+increase in user retention.
+
+\emph{•} Architected a highly scalable web application with
+\textbf{ReactJS} and \textbf{Tanstack Query}, reducing runtime errors by
+25\% and enhancing load handling by 40\%.
+
+\emph{•} Engineered an advanced form builder using \textbf{Vanilla
+JavaScript}, \textbf{ReactJS}, \textbf{NestJS}, \textbf{MySQL, AWS EC2},
+and \textbf{Docker}, supporting over 500+ users. This tool has
+transformed form development across platforms for various vendors,
+significantly reducing time and effort.
+
+\emph{•} Enhanced user experience in an Event Management app by
+integrating interactive maps, enabling users to visualize event
+locations and nearby attractions. This innovation boosted user
+engagement and facilitated informed\\
+decision-making on event venues.
+
+\emph{•} Developed a comprehensive reminder system within a Multi-Vendor
+app, ensuring timely notifications for events, sales, and promotions.
+This feature has been pivotal in increasing user retention.
+
+\emph{•} Played a key role in the successful launch of RxPak, a
+medication e-commerce \textbf{React Native} application for multiple
+actors on both \textbf{iOS} and \textbf{Android} platforms.
+Contributions included UI enhancements, payment gateway optimization,
+and improving the overall shopping experience.
+
+\emph{•} Actively participated in reviewing front-end mobile and web
+pull requests (PRs), providing critical insights and feedback that have
+been instrumental in maintaining high-quality standards across all
+projects, ensuring consistency and reliability.
+
+\textbf{Salsoft Technologies Pvt. Limited --- Junior Software Engineer}
+09/2022 - 08/2023
+
+\emph{Karachi, Pakistan}
+
+\emph{•} Delivered 8+ projects under tight deadlines with a 100\%
+success rate, receiving positive client feedback
+
+\emph{•} Developed intuitive user interfaces for web and mobile
+applications using \textbf{React Native} and \textbf{ReactJS},
+demonstrating proficiency in creating engaging and responsive designs
+that enhance user experience
+
+\emph{•} Streamlined the React Native boilerplate codebase with
+strategic enhancements, ensuring its universal adoption in all
+
+new projects at Mobile Application Department, accelerating project
+launch by 25\%.
+
+\textbf{Folio3 Software --- AI Apprentice} 06/2022-08/2022
+
+\emph{Karachi, Pakistan (Hybrid)}
+
+\emph{•} Spearheaded the development and optimization of \textbf{Natural
+Language Processing (NLP)} models, incorporating \textbf{MLOp}s
+methodologies for streamlined model lifecycle management.
+
+\emph{•} Developed Speako, an advanced NLP project at Folio3, featuring
+speech recognition, translation, and keyword extraction capabilities.
+Utilized \textbf{Python}, \textbf{wav2vec2}, opus-mt, \textbf{KeyBERT},
+\textbf{Streamlit}, and \textbf{Docker} to transcribe English audio
+files of any accent, translate to Urdu, and extract keywords, enhancing
+multilingual content accessibility and analysis.
+
+PROJECTS
+\end{quote}
+
+\includegraphics[width=7.5in,height=\textheight]{vertopal_6d2e6bfb3b634523a1faf107b161d186/media/image2.png}
+
+\begin{quote}
+\textbf{Textile Fabric Patterns Generator} \emph{\textbar{} Python
+Javascript DCGANS React Native Nest JS Fast API MongoDB Pytorch}
+
+\emph{•} Worked on my Final Year Project which aims to bring a
+revolution in the textile industry by automating the whole design
+generation process.It is intended to bring unique patterns in every
+single piece of the clothing line which will be done by an automation
+process.
+
+\textbf{The Speako} \emph{\textbar{} Python NLP Helsinki-NLP KeyBERT
+Docker Data Pipelines}
+
+\emph{•} Transcribing audio files using Hugging Faces implementation of
+Wav2Vec2 and chain-linking NLP tasks to combine speech-to-text with
+downstream tasks like translation and keyword extraction from Urdu to
+English.
+
+\textbf{RxPak} \emph{\textbar{} TypeScript React Native Next JS Nest JS
+Prisma PostgreSQL AWS Docker CI/CD}
+
+\emph{•} This project aims to develop a comprehensive pharmacy mobile
+app that addresses the pain points associated with traditional
+medication purchasing methods, ultimately improving accessibility,
+convenience, and efficiency for individuals needing prescribed
+medications.
+
+\textbf{Paso A Paso (VISIONZE)} \emph{\textbar{} JavaScript React JS
+React Native Nest JS TypeORM MySQL AWS}
+
+\emph{•} The business goal of this project is to bring all the
+documentary works, undergoing in various organizations for their
+business work, under a single platform
+
+\emph{•} This project is related to design and developing a web
+application where the end users and healthcare facilities providers
+would be able to join and manage their documentary work on the Visionze.
+There is also a facility of a mobile application for the foster care
+provider or guardianship for patients to manage their health-related
+documentation and appointments with the doctors.
+
+\textbf{Get Spruce} \emph{\textbar{} TypeScript Vite-React AntDesign
+Nest JS Prisma PostgreSQL AWS Firebase}
+
+\emph{•} Developed a comprehensive full-stack application serving the
+cleaning industry, featuring six interconnected modules to streamline
+property ownership management and offer specialized services such as
+home maintenance.
+
+ACHIEVEMENT
+\end{quote}
+
+\includegraphics[width=7.5in,height=\textheight]{vertopal_6d2e6bfb3b634523a1faf107b161d186/media/image1.png}
+
+\begin{quote}
+\textbf{Open Source Contributions for Xord}
+
+\emph{•} Selected among the top three candidates from over 500
+applicants following a rigorous selection process, contributed to
+BlockDAO, an open-source Web3 project. Utilized \textbf{React JS,
+Solidity}, and \textbf{TypeScript} to develop a daily \textbf{NFT}
+minting and auction system, enhancing community engagement and
+supporting blockchain innovation through the DAO treasury.
+
+\textbf{Inter-University Hackathon}
+
+\emph{•} Secured 4th place in speed programming among over 50
+participants at the Inter-University Hackathon.
+
+\textbf{M220JS}
+
+\emph{•} Earned certification for a course in MongoDB for JavaScript
+Developers
+
+TECHNICAL SKILLS
+\end{quote}
+
+\includegraphics[width=7.5in,height=\textheight]{vertopal_6d2e6bfb3b634523a1faf107b161d186/media/image1.png}
+
+\begin{quote}
+\textbf{Languages}: Javascript, Typescript, Python, Java\\
+\textbf{Front-End Frameworks}: React JS, Next JS, Redux, Redux Tool Kit,
+Zustand, React Query, Ant Design, MUI, Chakra UI, Radix UI, Shadcn,
+React Bootstrap.
+
+\textbf{Back-End Frameworks}: Node JS, Nest JS, Spring Boot\\
+\textbf{Databases}: MySql, PostgreSQL , MongoDB, Firebase\\
+\textbf{Testing Frameworks}: Jest, Pytest\\
+\textbf{Development Tools}: Git, IntelliJ IDEA , Pycharm , VS Code,
+Github, GitLab, BitBucket, JIRA, DBeaver, PGAdmin \textbf{Familiarity}:
+Prisma, Docker, AWS, Google Cloud, Jenkins, PyTorch, NLP, CI/CD, Go Lang
+\end{quote}
+
+\end{document}
