@@ -1,0 +1,261 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Fashad Ahmed Siddique} \\ \vspace{1pt}
+    \small 92-320-3064789 $|$ \href{mailto:fashad.ahmed20@gmail.com}{\underline{fashad.ahmed20@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/fashad-ahmed-siddique-285a79207/}{\underline{linkedin.com/in/Fashad}} $|$
+    \href{https://github.com/Fashad-Ahmed}{\underline{github.com/Fashad}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {NED University Of Engineering and Technology}{Karachi, Pakistan}
+      {Bachelor of Computer Science (3.63/4 CGPA)}{2019 -- 2023}
+    \resumeSubheading
+      {Adamjee Govt. Science College}{Karachi, Pakistan}
+      {Pre-Engineering (82.46\%)}{2017 -- 2019}
+    \resumeSubheading
+      {Gulistan S.A.L Boys Higher Secondary School}{Karachi, Pakistan}
+      {Science Group (11th Position in BSEK - 93\%)}{2007 -- 2017}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+   \resumeSubheading
+      {Software Engineer}{Dec 2024 -- Present}
+      {Dubizzle}{Karachi, Pakistan (Hybrid)}
+                 \resumeItemListStart
+              \resumeItem{Optimized DPV image policy, enhancing image fetching and display performance from \textbf{S3} in \textbf{Next JS}, resulting in \textbf{25\% faster image load times} and improved user experience.}
+        \resumeItem{Refactored legacy \textbf{anchor} tags to Next JS \textbf{Link} components within Property Listing Page Views (LPVs), achieving \textbf{smoother and faster page transitions} and reducing Redux Tool kit state update times by \textbf{15\%}.}
+        \resumeItem{Enhanced server-side rendering (SSR) filter performance, improving data processing and reducing page load times by \textbf{10\%} for complex filtered results.}
+\resumeItem{Developed a key feature of the Property DPV Mortgage Calculator, providing users with instant financial estimates and contributing to a \textbf{20\% increase in user engagement} with financial tools.}
+\resumeItem{Spearheaded the development of a new Developer LPV, significantly boosting SEO optimization for developer properties in UAE and driving a \textbf{30\% increase in organic search traffic} to relevant pages.}
+\resumeItem{Designed and implemented the comprehensive Price Trends feature, providing users with data-driven insights through summary views, comparative search (leveraging Algolia), and 5-year trend graphs, thereby \textbf{enhancing user engagement by 18\%} and facilitating informed real estate decisions.}
+\resumeItem{Developed and integrated Off-Plan Cost-Per-Lead (CPL) pilot features across Bayut and Dubizzle web, mobile web, and app platforms, enabling a new monetization model that successfully generated \textbf{500+ leads} and achieved a \textbf{12\% conversion rate} during the pilot phase.}
+\resumeItem{Drove the strategic Property Homepage migration, significantly improving user interactivity, eliminating critical technical debt, and boosting overall SEO performance by \textbf{22\% in organic search visibility}.}
+\resumeItem{Leveraged and managed advanced error and log handling systems including \textbf{Sentry},  \textbf{Grafana}, and \textbf{EKS},}
+\resumeItem{Actively participated in \textbf{code reviews} for peer contributions, ensuring adherence to coding standards and best practices, and actively \textbf{mentored} junior associates, fostering their technical growth}
+    \resumeItemListEnd
+
+      
+    \resumeSubheading
+      {Software Engineer}{Sept 2023 -- Nov 2024}
+      {KoderLabs}{Karachi, Pakistan}
+      \resumeItemListStart
+        \resumeItem{Spearheaded Development of a \textbf{SPA} using \textbf{ReactJS}, improving page load times by \textbf{30\%}, leading to a \textbf{20\%} increase in user retention.}
+        \resumeItem{Architected a highly scalable web application with \textbf{ReactJS} and \textbf{Tanstack Query}, reducing runtime errors by \textbf{25\%} and enhancing load handling by \textbf{40\%}.}
+        \resumeItem{Engineered an advanced form builder using \textbf{Vanilla JavaScript}, \textbf{ReactJS}, \textbf{NestJS}, \textbf{MySQL, AWS EC2}, and \textbf{Docker}, supporting over \textbf{500+} users. This tool has transformed form development across platforms for various vendors, significantly reducing time and effort.}
+\resumeItem{Developed a custom \textbf{reminder system} within a \textbf{Multi-Vendor} app, ensuring timely notifications for a \textbf{Med-tech} mobile application.}
+\resumeItem{Enhanced user experience in an Event Management app by integrating interactive \textbf{maps}, enabling users to visualize event locations and nearby attractions.}
+\resumeItem{Played a key role in the successful launch of RxPak, a medication e-commerce \textbf{React Native }application for multiple actors on both \textbf{iOS }and \textbf{Android }platforms. Contributions included UI enhancements, \textbf{payment gateway }optimization, and improving the overall shopping experience.}
+\resumeItem{Developed a mini micro service for desktop remote control handling using \textbf{Node JS} and \textbf{Robot JS}.}
+\resumeItem{Developed and maintained RESTful APIs using \textbf{NestJS} and \textbf{Prisma ORM} for robust data management and seamless communication.}
+\resumeItem{Actively participated in reviewing front-end mobile and web pull requests.}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Junior Software Engineer }{Sept 2022 -- Aug 2023}
+      {Salsoft Technologies Pvt. Limited}{Karachi, Pakistan}
+      \resumeItemListStart
+              \resumeItem{Developed intuitive user interfaces for web and mobile applications using \textbf{React Native} and \textbf{ReactJS}, demonstrating
+proficiency in creating engaging and responsive designs that enhance user experience.}
+        \resumeItem{Delivered 8+ projects from scratch under tight deadlines and streamlined the React Native boilerplate code-base with strategic enhancements, ensuring its universal adoption in all new projects at the Mobile Application Department, accelerating project launch by \textbf{25\%}.}
+
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Artificial Intelligence Apprentice}{July 2022 -- Aug 2022}
+      {Folio3 Software}{Karachi, Pakistan (Hybrid)}
+      \resumeItemListStart
+      \resumeItem{Led the development of anadvanced NLP project featuring speech recognition, translation, and keyword extraction capabilities. Utilized \textbf{Python}, \textbf{Wav2Vec2}, \textbf{opus-mt}, \textbf{KeyBERT}, \textbf{Hugging-face}, \textbf{Streamlit}, and \textbf{Docker} to transcribe English audio files of any accent, translate to Urdu, and extract keywords, enhancing multilingual content accessibility and analysis.}
+        \resumeItem{Managed a team of four professionals to develop and optimize \textbf{Natural Language Processing (NLP)} models, utilizing \textbf{MLOps} methodologies to ensure efficient and scalable model lifecycle management.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+
+      \resumeProjectHeading
+          {\textbf{Textile Fabric Patterns Generator} $|$ \emph{Python, JavaScript, DCGANs, React Native, NestJS, FastAPI, MongoDB, PyTorch}}{}
+          \resumeItemListStart
+            \resumeItem{Worked on my Final Year Project which aims to revolutionize the textile industry by automating the design generation process. The project intends to bring unique patterns in every single piece of the clothing line through an automation process.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Get Spruce} $|$ \emph{TypeScript, Vite-React, AntDesign, NestJS, Prisma, PostgreSQL, AWS, Firebase}}{}
+          \resumeItemListStart
+            \resumeItem{Developed a comprehensive full-stack application for the cleaning industry, featuring six interconnected modules to streamline property ownership management and offer specialized services, such as home maintenance.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{The Speako} $|$ \emph{Python, NLP, Hugging Face, Helsinki-NLP, KeyBERT, Docker, Data Pipelines}}{}
+          \resumeItemListStart
+            \resumeItem{Transcribed audio files using Hugging Face's implementation of Wav2Vec2 and integrated NLP tasks to combine speech-to-text with downstream tasks like translation and keyword extraction from Urdu to English.}
+          \resumeItemListEnd
+
+ \resumeProjectHeading
+          {\textbf{Visionze} $|$ \emph{JavaScript React JS React Native Nest JS TypeORM MySQL AWS}}{}
+          \resumeItemListStart
+            \resumeItem{The business goal of this project is to bring all the documentary works, undergoing in various organizations for their business work, under a single platform. This project is related to design and developing a web application where the end users and healthcare facilities providers would be able to join and manage their documentary work on the Visionze. There is also a mobile application facility for the foster care provider or guardianship for patients to manage their health-related documentation and doctor appointments.}
+          \resumeItemListEnd
+
+
+                \resumeProjectHeading
+          {\textbf{RxPak} $|$ \emph{TypeScript React Native Next JS Nest JS Prisma PostgreSQL AWS Docker CI/CD}}{}
+          \resumeItemListStart
+            \resumeItem{This project aims to develop a comprehensive pharmacy mobile app that addresses the pain points associated with traditional medication purchasing methods, ultimately improving accessibility, convenience, and efficiency for individuals needing prescribed medications.}
+          \resumeItemListEnd
+          
+    \resumeSubHeadingListEnd
+
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Javascript, Typescript, Python, Java} \\
+     \textbf{Front-End Technologies}{: React JS, Next JS, Redux, Redux Tool Kit, Zustand, React Query, Ant Design, MUI, Chakra UI, Radix UI, Shadcn, React Bootstrap.} \\
+     \textbf{Back-End Technologies}{: Node JS, Nest JS, Django, Algolia} \\
+       \textbf{Databases}{: MySql, PostgreSQL , MongoDB} \\
+         \textbf{Developer Tools}{: Cursor, Git, Docker, VS Code, Gemini, PyCharm, IntelliJ, Cursor, BitBucket, Github, Jira, DBeaver, GitHub Actions} \\
+     \textbf{Testing Frameworks}{: Jest, Pytest, Sentry, Tavern} \\
+          \textbf{Familiarity}{: Prisma, Docker, AWS, Google Cloud, Jenkins, PyTorch, NLP, Langchain, CI/CD, Go}
+
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
